@@ -5,6 +5,9 @@ class BinarySearch{
         System.out.println(binarySearch(arr, 65));
     }
   
+    //Time Complexity is O(log(n))
+    //Best when list is in order
+  
     public static int binarySearch(int[] nums, int target) {
       
         int start = 0;
